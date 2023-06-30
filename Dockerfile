@@ -1,3 +1,3 @@
 FROM nginx:alpine-slim
-COPY default.conf /etc/nginx/conf.d/
+COPY nginx.conf /etc/nginx/
 EXPOSE 8080
