@@ -1,0 +1,7 @@
+[general]
+port = 8080
+
+[[advanced.redirects]]
+source = "**/*"
+destination = "https://ok.impl.nl"
+kind = 302
